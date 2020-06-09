@@ -15,13 +15,16 @@
   <form id="count">
     <div class="form-group">
       <label for="input1">Count to:</label>
-      <input id="count-to" type="text">
+      <input id="count-to" type="text" class="form-control" aria-describedby="helpBlock">
+      <span id="helpBlock1" class="help-block"></span>
+
     </div>
     <div class="form-group">
       <label for="input2">Count by:</label>
-      <input id="count-by" type="text">
+      <input id="count-by" type="text" class="form-control" aria-describedby="helpBlock">
+      <span id="helpBlock2" class="help-block">Please add a valid number.</span>
     </div>
-    <button type="button">Submit</button>
+    <input id="form-submit" class="btn btn-primary" type="submit" value="Submit">
   </form>
   <div class="output">
     <ul id="count-list"></ul>
