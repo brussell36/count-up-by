@@ -12,18 +12,20 @@
 <body>
   <div class="container">
   <h1>Count Up To</h1>
-  <form>
+  <form id="count">
     <div class="form-group">
       <label for="input1">Count to:</label>
-      <input type="text">
+      <input id="count-to" type="text">
     </div>
     <div class="form-group">
       <label for="input2">Count by:</label>
-      <input type="text">
+      <input id="count-by" type="text">
     </div>
     <button type="button">Submit</button>
   </form>
-  <div class="output"></div>
+  <div class="output">
+    <ul id="count-list"></ul>
+  </div>
 </div>
 </body>
 </html>
